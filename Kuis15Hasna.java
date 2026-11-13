@@ -8,6 +8,8 @@ public class Kuis15Hasna {
         int totalBerat = 0;
         int totalBiaya = 0;
         int total = 0;
+        int nim2 = 21;
+        int kapasitas = (nim2 % 10) + 10;
 
         for (int i = 1; i <= n; i++) {
             System.out.print("Berat cucian pelanggan ke-" + i + " (kg): ");
@@ -17,6 +19,8 @@ public class Kuis15Hasna {
             int biaya;
             if (berat <= 3) {
                 biaya = 15000;
+                if (kapasitas > nim2);
+                System.out.println("");
             } else {
                 biaya = 15000 + (berat - 3) * 4000;
             }
